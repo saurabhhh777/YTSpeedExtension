@@ -1,0 +1,29 @@
+.video-speed-controller {
+    display: flex;
+    flex-direction: row; /* Arrange buttons in a row */
+    gap: 5px; /* Spacing between buttons */
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 9999;
+  }
+  
+  .speed-btn {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    background-color: rgba(69, 67, 67, 0.7); /* Semi-transparent background */
+    border: none;
+    padding: 5px 10px; /* Button padding */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, opacity 0.3s; /* Smooth transition for hover effects */
+    opacity: 0.8; /* Slightly transparent */
+  }
+  
+  .speed-btn:hover {
+    background-color: rgba(0, 86, 179, 0.8); /* Brighter background on hover */
+    opacity: 1; /* Fully opaque on hover */
+  }
+  
