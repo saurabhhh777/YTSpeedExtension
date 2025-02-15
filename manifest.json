@@ -3,7 +3,6 @@
   "name": "YT Speed",
   "version": "1.0",
   "description": "Control video playback speed with keyboard shortcuts or buttons.",
-  "permissions": ["activeTab"],
   "action": {
     "default_popup": "index.html",
     "default_icon": {
